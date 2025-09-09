@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "sink",
+  "name": "nays-sink",
   "main": "dist/server/index.mjs",
   "assets": {
     "binding": "ASSETS",
@@ -24,7 +24,7 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "40aab8084d504768aaf73e49ad55fd1b" // IMPORTANT: Change this to your KV namespace ID
+      "id": "40aab8084d504768aaf73e49ad55fd1b"
     }
   ]
 }
