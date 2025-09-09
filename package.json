@@ -8,7 +8,7 @@
     "node": ">=20.11"
   },
   "scripts": {
-    "build": "NODE_OPTIONS=--max-old-space-size=8192 nuxt build",
+    "build": "NODE_OPTIONS=--max-old-space-size=8192 NUXT_HOME_URL=https://nays.info/dashboard nuxt build",
     "build:map": "node scripts/build-map.js",
     "build:colo": "node scripts/build-colo.js",
     "postinstall": "npm run build:map && nuxt prepare",
